@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ss-itunes-api_Example' do
+  pod 'ss-itunes-api', :path => '../'
+
+  target 'ss-itunes-api_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
